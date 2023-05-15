@@ -1,0 +1,98 @@
+body {
+  background-color: #171123;
+  scroll-behavior: smooth;
+}
+@keyframes fadein {
+    from{
+      opacity: 0;
+    } to {
+      opacity: 1;
+    }
+}
+.container1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myName {
+  font-size: 90px;
+  color: #ffffff;
+  animation: fadein ease-in 3s;
+}
+.skills {
+  font-size: 25px;
+  color: #ffffff;
+}
+.quote {
+  font-size: 30px;
+  color: #f46036;
+}
+.a {
+  font-size: normal;
+  font-weight: bolder;
+}
+.bottom-half {
+  display: flex;
+  justify-content: center;
+}
+#arrowd {
+  position: absolute;
+  justify-content: center;
+  font-size: 75px;
+  color: #727272;
+  bottom: 40px;
+  left: calc(50% - 37.5px);
+}
+#arrowd:hover {
+  color: #ffffff;
+}
+#about {
+  background-color: #372248;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.contact {
+  background-color: #414770;
+  color: white;
+  padding: 20px;
+}
+
+.form input,
+textarea,
+button {
+  width: 100%;
+  padding: 5px;
+}
+.portafolio {
+  background-color: #5b85aa;
+  color: #ffffff;
+  padding: 20px;
+}
+#email,
+#text {
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: #f46036;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+footer {
+  background-color: #171123;
+  color: #ffffff;
+  padding: 20px;
+}
+section {
+  box-shadow: -10px 0 35px #11072e;
+}
+.emailcolor {
+  color: #f46036;
+  text-decoration: none;
+}
